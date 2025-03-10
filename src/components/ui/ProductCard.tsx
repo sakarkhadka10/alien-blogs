@@ -43,6 +43,9 @@ export const ProductCard = ({
             <p className="font-fredoka text-sm text-gray-300 ">
               {shortDescription}
             </p>
+            <button className="bg-[#a6d5c1] px-4 py-1 rounded-md text-dark font-bold">
+              Continue Reading
+            </button>
           </div>
         </div>
       </div>
