@@ -7,7 +7,7 @@ const LatestPost = () => {
   const limitedpost = ProductList.slice(0, 9);
   return (
     <>
-      <div className="w-full px-16 py-6">
+      <div className="w-full px-4 lg:px-16 py-6">
         <div className="flex justify-between items-center">
           <div>
             <h1 className="text-2xl font-bold">Latest Post</h1>
