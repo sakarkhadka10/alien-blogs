@@ -1,11 +1,11 @@
 import Hero from "@/components/Home/Hero";
-import Products from "./[products]/page";
+import LatestPost from "@/components/Home/LatestPost";
 
 export default function Home() {
   return (
     <div>
       <Hero />
-      <Products />
+      <LatestPost />
     </div>
   );
 }

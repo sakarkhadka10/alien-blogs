@@ -23,13 +23,13 @@ export const ProductCard = ({
               alt="product"
               width={400}
               height={225}
-              className=" relative rounded-lg"
+              className=" relative rounded-t-lg"
             />
-            <h3 className="absolute top-2 left-2.5 text-black text-md rounded-md bg-white font-bold  px-4 py-1">
+            <h3 className="absolute top-2 left-2.5 text-black text-[.6rem] rounded-md bg-white font-bold  px-2 py-1">
               {category}
             </h3>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-4 pb-4">
             <h4 className="font-fredoka text-sm">
               <button className="cursor-pointer hover:text-gray-300">
                 {admin}
